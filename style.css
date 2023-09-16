@@ -1,0 +1,66 @@
+body{
+  background-image: url(bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+.mid-div{
+ display: flex;
+ margin-top: 60px;
+ margin-left: 50px;
+}
+.top-div{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.mid-right{
+  color: white;
+  margin-left: 50px;
+  font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.first-button{
+  border-radius: 30px;
+  padding: 18px;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: hsl(257, 40%, 49%);
+  font-size: 15px;
+  border: 0px;
+  box-shadow: 5px 5px 10px rgb(50, 50, 50);
+  transition: 0.2s;
+  margin-top: 15px;
+}
+.first-button:hover{
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+.main-text{
+  font-weight: bolder;
+  line-height: 46px;
+  font-family: Poppins;
+}
+.some-text{
+  line-height: 25px;
+}
+.first-logo{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  transition: 0.2s;
+}
+.all-buttons{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+.first-logo:hover{
+  border-color:hsl(300, 69%, 71%) ;
+  cursor: pointer;
+}
